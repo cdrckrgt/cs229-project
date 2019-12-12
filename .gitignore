@@ -1,0 +1,7 @@
+logs
+*.pt
+gifs
+src/__pycache__
+*.sw[op]
+*.py[cod]
+*.ipynb_checkpoints
