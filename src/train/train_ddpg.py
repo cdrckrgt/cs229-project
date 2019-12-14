@@ -1,7 +1,7 @@
 '''
 Cedrick Argueta
 
-majority of code taken from:
+inspired in part by:
 https://github.com/seungeunrho/minimalRL/blob/master/ddpg.py
 https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
 '''
