@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{PyFEBOL}
+Cedrick Argueta.
+\newblock Python filter exploration for bearing only localization, 2019.
+\newblock Available at https://github.com/cdrckrgt/PyFEBOL.
+
+\bibitem{dronehunter}
+Louis Dressel and Mykel~J. Kochenderfer.
+\newblock Hunting drones with other drones: Tracking a moving radio target.
+
+\bibitem{kyle1}
+Kyle~D. Julian and Mykel~J. Kochenderfer.
+\newblock Distributed wildfire surveillance with autonomous aircraft using deep
+  reinforcement learning.
+\newblock {\em CoRR}, abs/1810.04244, 2018.
+
+\bibitem{learning_to_seek}
+Bardienus~P. Duisterhof, Srivatsan Krishnan, Jonathan~J. Cruz, Colby~R.
+  Banbury, William Fu, Aleksandra Faust, Guido C. H.~E. de~Croon, and
+  Vijay~Janapa Reddi.
+\newblock Learning to seek: Autonomous source seeking with deep reinforcement
+  learning onboard a nano drone microcontroller, 2019.
+
+\bibitem{marketwatch_drone}
+Associated Press.
+\newblock Worried about drones flying too close to airports? here are answers
+  to your questions, Jan 2019.
+
+\bibitem{airprox}
+UK~Airprox Board.
+\newblock Monthly meeting march 2019, Mar 2019.
+
+\bibitem{faa}
+Federal~Aviation Administration.
+\newblock Airspace restrictions, Dec 2018.
+
+\bibitem{sensor_modality}
+L.~{Dressel} and M.~J. {Kochenderfer}.
+\newblock Pseudo-bearing measurements for improved localization of radio
+  sources with multirotor uavs.
+\newblock In {\em 2018 IEEE International Conference on Robotics and Automation
+  (ICRA)}, pages 6560--6565, May 2018.
+
+\bibitem{kyle2}
+Kyle~D. Julian and Mykel~J. Kochenderfer.
+\newblock {\em Neural Network Guidance for UAVs}.
+\newblock 2017.
+
+\bibitem{dqn}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin~A. Riedmiller.
+\newblock Playing atari with deep reinforcement learning.
+\newblock {\em CoRR}, abs/1312.5602, 2013.
+
+\bibitem{double_dqn}
+Hado van Hasselt, Arthur Guez, and David Silver.
+\newblock Deep reinforcement learning with double q-learning.
+\newblock {\em CoRR}, abs/1509.06461, 2015.
+
+\bibitem{dueling_dqn}
+Ziyu Wang, Nando de~Freitas, and Marc Lanctot.
+\newblock Dueling network architectures for deep reinforcement learning.
+\newblock {\em CoRR}, abs/1511.06581, 2015.
+
+\end{thebibliography}

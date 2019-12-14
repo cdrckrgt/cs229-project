@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{dronehunter}
+L.~{Dressel} and M.~J. {Kochenderfer}.
+\newblock Hunting drones with other drones: Tracking a moving radio target.
+\newblock In {\em 2019 International Conference on Robotics and Automation
+  (ICRA)}, pages 1905--1912, May 2019.
+
+\bibitem{sensor_modality}
+L.~{Dressel} and M.~J. {Kochenderfer}.
+\newblock Pseudo-bearing measurements for improved localization of radio
+  sources with multirotor uavs.
+\newblock In {\em 2018 IEEE International Conference on Robotics and Automation
+  (ICRA)}, pages 6560--6565, May 2018.
+
+\bibitem{rlblogpost}
+Alex Irpan.
+\newblock Deep reinforcement learning doesn't work yet.
+\newblock \url{https://www.alexirpan.com/2018/02/14/rl-hard.html}, 2018.
+
+\bibitem{ddpg}
+Timothy~P. Lillicrap, Jonathan~J. Hunt, Alexander Pritzel, Nicolas Heess, Tom
+  Erez, Yuval Tassa, David Silver, and Daan Wierstra.
+\newblock Continuous control with deep reinforcement learning.
+\newblock In {\em 4th International Conference on Learning Representations,
+  {ICLR} 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track
+  Proceedings}, 2016.
+
+\bibitem{td3}
+Scott Fujimoto, Herke van Hoof, and David Meger.
+\newblock Addressing function approximation error in actor-critic methods.
+\newblock {\em CoRR}, abs/1802.09477, 2018.
+
+\bibitem{dqn}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin~A. Riedmiller.
+\newblock Playing atari with deep reinforcement learning.
+\newblock {\em CoRR}, abs/1312.5602, 2013.
+
+\bibitem{gym}
+Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman,
+  Jie Tang, and Wojciech Zaremba.
+\newblock Openai gym.
+\newblock {\em CoRR}, abs/1606.01540, 2016.
+
+\end{thebibliography}

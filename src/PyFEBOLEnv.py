@@ -254,6 +254,48 @@ class PyFEBOLEnv(gym.Env):
             plt.savefig(path)
             plt.close()
 
+        elif mode == 'live':
+            plt.figure(figsize=(8, 8))
+            plt.title('{}, step {}'.format(title, self.num_steps))
+
+            # plotting belief dist
+            x_particles = self.f.x_particles
+            y_particles = self.f.y_particles
+            plt.xlim(0, self.domain_length)
+            plt.ylim(0, self.domain_length)
+            plt.scatter(x_particles, y_particles, marker='o', c='k', s= (72./plt.gcf().dpi) ** 2) 
+
+            # plot history
+            cmap = matplotlib.cm.get_cmap('cividis')
+            for i, oldPose in enumerate(self.seeker_hist):
+                old_x, old_y, old_heading = oldPose
+                marker = matplotlib.markers.MarkerStyle(marker=r'$\wedge$')
+                idx = i / len(self.seeker_hist)
+                c = cmap(idx)
+                plt.scatter(old_x, old_y, marker=marker, color=c)
+
+            # plotting seeker and target drone positions
+            x, y, heading = self.d.getPose()
+            marker = matplotlib.markers.MarkerStyle(marker=r'$\wedge$')
+
+            plt.scatter(x, y, marker=marker, c='c')
+
+            if self.num_steps % 2 == 0:
+                self.seeker_hist.append((x, y, heading))
+
+            # important values
+            ent = self.f.entropy()
+            max_eig = self.f.maxEigenvalue()
+            max_prob = self.f.maxProbBucket()
+            mean_dx, mean_dy = self.f.mean_velocity()
+            toptxt = 'Entropy: {:6.2f}, Max Eig: {:8.2f}, Max Prob: {:.3f}, Mean (vx, vy): ({:.1f}, {:.1f})'.format(ent, max_eig, max_prob, mean_dx, mean_dy)
+            plt.figtext(0.01, 0.04, toptxt, wrap=True, horizontalalignment='left', fontsize=8)
+
+            # saving graph
+            plt.xlim(0, self.m.length)
+            plt.ylim(0, self.m.length)
+            plt.draw()
+
     def close(self):
         pass
 

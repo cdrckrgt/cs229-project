@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{ddpg}
+Timothy~P. Lillicrap, Jonathan~J. Hunt, Alexander Pritzel, Nicolas Heess, Tom
+  Erez, Yuval Tassa, David Silver, and Daan Wierstra.
+\newblock Continuous control with deep reinforcement learning.
+\newblock In {\em 4th International Conference on Learning Representations,
+  {ICLR} 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track
+  Proceedings}, 2016.
+
+\bibitem{td3}
+Scott Fujimoto, Herke van Hoof, and David Meger.
+\newblock Addressing function approximation error in actor-critic methods.
+\newblock {\em CoRR}, abs/1802.09477, 2018.
+
+\bibitem{dqn}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin~A. Riedmiller.
+\newblock Playing atari with deep reinforcement learning.
+\newblock {\em CoRR}, abs/1312.5602, 2013.
+
+\bibitem{dronehunter}
+L.~{Dressel} and M.~J. {Kochenderfer}.
+\newblock Hunting drones with other drones: Tracking a moving radio target.
+\newblock In {\em 2019 International Conference on Robotics and Automation
+  (ICRA)}, pages 1905--1912, May 2019.
+
+\bibitem{kyle1}
+Kyle~D. Julian and Mykel~J. Kochenderfer.
+\newblock Distributed wildfire surveillance with autonomous aircraft using deep
+  reinforcement learning.
+\newblock {\em CoRR}, abs/1810.04244, 2018.
+
+\bibitem{learning_to_seek}
+Bardienus~P. Duisterhof, Srivatsan Krishnan, Jonathan~J. Cruz, Colby~R.
+  Banbury, William Fu, Aleksandra Faust, Guido C. H.~E. de~Croon, and
+  Vijay~Janapa Reddi.
+\newblock Learning to seek: Autonomous source seeking with deep reinforcement
+  learning onboard a nano drone microcontroller, 2019.
+
+\bibitem{sensor_modality}
+L.~{Dressel} and M.~J. {Kochenderfer}.
+\newblock Pseudo-bearing measurements for improved localization of radio
+  sources with multirotor uavs.
+\newblock In {\em 2018 IEEE International Conference on Robotics and Automation
+  (ICRA)}, pages 6560--6565, May 2018.
+
+\bibitem{fov}
+Louis Dressel and Mykel~J. Kochenderfer.
+\newblock Efficient and low-cost localization of radio signals with a
+  multirotor {UAV}.
+\newblock {\em CoRR}, abs/1808.04438, 2018.
+
+\bibitem{decision_making}
+Mykel~J. Kochenderfer.
+\newblock {\em Decision making under uncertainty: theory and application}.
+\newblock The MIT Press, 2015.
+
+\bibitem{prob_rob}
+Sebastian Thrun, Wolfram Burgard, and Dieter Fox.
+\newblock {\em Probabilistic robotics}.
+\newblock MIT Press, 2010.
+
+\bibitem{sutton_barto_2018}
+Richard~S Sutton and Andrew Barto.
+\newblock {\em Reinforcement learning: an introduction}.
+\newblock The MIT Press, 2018.
+
+\bibitem{double_dqn}
+Hado van Hasselt, Arthur Guez, and David Silver.
+\newblock Deep reinforcement learning with double q-learning.
+\newblock {\em CoRR}, abs/1509.06461, 2015.
+
+\bibitem{PyFEBOL}
+Cedrick Argueta.
+\newblock Python filter exploration for bearing only localization, 2019.
+\newblock Available at https://github.com/cdrckrgt/PyFEBOL.
+
+\bibitem{a3c}
+Volodymyr Mnih, Adrià~Puigdomènech Badia, Mehdi Mirza, Alex Graves,
+  Timothy~P. Lillicrap, Tim Harley, David Silver, and Koray Kavukcuoglu.
+\newblock Asynchronous methods for deep reinforcement learning, 2016.
+
+\bibitem{dqfd}
+Todd Hester, Matej Vecerik, Olivier Pietquin, Marc Lanctot, Tom Schaul, Bilal
+  Piot, Dan Horgan, John Quan, Andrew Sendonaris, Gabriel Dulac-Arnold, Ian
+  Osband, John Agapiou, Joel~Z. Leibo, and Audrunas Gruslys.
+\newblock Deep q-learning from demonstrations, 2017.
+
+\end{thebibliography}
