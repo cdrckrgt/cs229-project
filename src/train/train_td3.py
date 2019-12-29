@@ -294,7 +294,7 @@ def optimize_model(t):
         target_actions = mu_target(non_final_next_state_batch)
         # should i add noise here like in TD3?
         noise = torch.from_numpy(np.clip(np.random.randn(*target_actions.shape) * 0.2, -0.5, 0.5))
-        next_state_values1, next_state_values2  = Q_target(non_final_next_state_batch, target_actions + target_actions)
+        next_state_values1, next_state_values2  = Q_target(non_final_next_state_batch, target_actions + noise)
         next_state_values = torch.min(next_state_values1, next_state_values2)
 
     # Compute the expected Q values
