@@ -220,7 +220,7 @@ pydot==1.4.1
 -e git+https://github.com/cdrckrgt/PyFEBOL@2cdb10d7f90fef79e9663dd75c2271792dc47693#egg=PyFEBOL
 pyflakes==2.1.1
 pyglet==1.3.2
-Pygments==2.4.2
+Pygments==2.7.4
 pylint==2.4.2
 pyodbc==4.0.27
 pyOpenSSL==19.0.0
