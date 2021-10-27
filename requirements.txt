@@ -42,7 +42,7 @@ cycler==0.10.0
 cymem==2.0.2
 Cython==0.29.13
 cytoolz==0.10.0
-dask==2.5.0
+dask==2021.10.0
 dataclasses==0.6
 datalab==1.1.5
 decorator==4.4.0
