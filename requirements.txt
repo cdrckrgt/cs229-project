@@ -47,7 +47,7 @@ dataclasses==0.6
 datalab==1.1.5
 decorator==4.4.0
 defusedxml==0.6.0
-distributed==2.5.1
+distributed==2021.10.0
 docker==4.1.0
 docutils==0.14
 entrypoints==0.3
