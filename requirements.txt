@@ -113,7 +113,7 @@ jedi==0.15.1
 jeepney==0.4.1
 Jinja2==2.10.1
 jinja2-time==0.2.0
-joblib==0.13.2
+joblib==1.2.0
 json5==0.8.5
 jsonschema==3.0.2
 julia==0.2.0
